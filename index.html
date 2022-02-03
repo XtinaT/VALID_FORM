@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>valid_form</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<form name="FORM1" action="http://fe.it-academy.by/TestForm.php" novalidate>
+		<div class="TEXT">Разработчики:</div>
+		<input type="text" name="developers" class="LONGTEXT" />
+      <span></span><br />
+      <div class="TEXT">Название сайта:</div>
+      <input type="text" name="siteName" class="LONGTEXT" />
+      <span></span><br />
+      <div class="TEXT">URL сайта:</div>
+      <input type="text" name="siteAdress" class="MIDDLETEXT" />
+      <span></span><br />
+      <div class="TEXT">Дата запуска сайта:</div>
+      <input type="date" name="date" />
+      <span></span><br />
+      <div class="TEXT">Посетителей в сутки:</div>
+      <input type="text" name="visitors" />
+      <span></span><br />
+      <div class="TEXT">E-mail для связи:</div>
+      <input type="text" name="contacts" class="MIDDLETEXT" />
+      <span></span><br />
+
+      <div class="TEXT">Рубрики каталога:</div>
+      <select name="rubr">
+        <option value="1">бытовая техника</option>
+        <option value="2">спортивные товары</option>
+        <option value="3">здоровье</option>
+      </select>
+      <span></span><br />
+      <div class="TEXT">Размещение:</div>
+      <input type="radio" name="host" value="11" />бесплатное
+      <input type="radio" name="host" value="22" />платное
+      <input type="radio" name="host" value="33" />VIP <span></span><br />
+      <div class="TEXT">Разрешить отзывы:</div>
+      <input type="checkbox" name="agree" /> <span></span><br />
+      Описание сайта:<br />
+      <textarea name="descr"></textarea>
+      <span></span><br />
+      <input type="submit" value="Опубликовать" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.TEXT {
+  width:150px;
+  float:left;
+}
+.LONGTEXT {
+ width:400px;
+}
+textarea {
+ width:550px; 
+}
+.MIDDLETEXT {
+ width:300px;
+}
+ span {
+ font-size: 0.8em;
+}
