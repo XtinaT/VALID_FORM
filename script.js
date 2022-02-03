@@ -120,8 +120,8 @@ function validateFormInfo(e) {
       var sp = form.querySelector("input[name=visitors] + span");
       sp.textContent = null;
     }
-    //поле не должно быть пустым, максимальная длина введенного текста - 10 символов в формате дд.мм.гггг 
-    if (dateValue.length < 7) {
+    //дата должна быть введена в формате дд.мм.гггг , максимальная длина введенного текста - 10 символов 
+    if (dateValue.length < 10) {
       var sp = form.querySelector("input[name=date] + span");
       sp.textContent = "Данная строка требует заполнения!";
       sp.style.color = "red";
